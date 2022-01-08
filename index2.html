@@ -16,7 +16,7 @@
 	<script>
 		window.onload = function () {
 			//paste api link inside fetch string..
-			fetch("https://ee61caqk8c.execute-api.ap-south-1.amazonaws.com/Test/get-data?userId=0").then(res => res.json()).then(data => (
+			fetch("").then(res => res.json()).then(data => (
 				document.querySelector('#aws_api_data').innerHTML = JSON.stringify(data, undefined, 4)
 			));
 		}
